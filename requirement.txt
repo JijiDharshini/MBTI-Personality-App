@@ -1,9 +1,7 @@
 streamlit
-scikit-learn 
+scikit-learn
+pandas
 numpy
-pandas 
-pickle-mixin
 nltk
-scipy
 joblib
-
+scipy
