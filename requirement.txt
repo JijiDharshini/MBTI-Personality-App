@@ -4,4 +4,6 @@ numpy
 pandas 
 pickle-mixin
 nltk
+scipy
+joblib
 
