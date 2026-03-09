@@ -1,4 +1,6 @@
 import streamlit as st
+import sklearn
+st.write("Sklearn version:", sklearn.__version__)
 import pickle
 import time
 import random
@@ -233,4 +235,5 @@ with st.expander("Is this accurate?"):
 # ---------- FOOTER ----------
 
 st.markdown('<p class="footer">AI Personality Lab • Built with Streamlit by KJ 🩷</p>', unsafe_allow_html=True)
+
 
