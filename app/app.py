@@ -88,10 +88,13 @@ st.markdown('<p class="subtitle">Explore your personality with AI</p>', unsafe_a
 
 import os
 
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+ROOT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-model = pickle.load(open(os.path.join(BASE_DIR,"../Models/mbti_model.pkl"),"rb"))
-vectorizer = pickle.load(open(os.path.join(BASE_DIR,"../Models/vectorizer.pkl"),"rb"))
+model_path = os.path.join(ROOT_DIR, "Models", "mbti_model.pkl")
+vectorizer_path = os.path.join(ROOT_DIR, "Models", "vectorizer.pkl")
+
+model = pickle.load(open(model_path, "rb"))
+vectorizer = pickle.load(open(vectorizer_path, "rb"))
 
 # ---------- MBTI DATA ----------
 
@@ -235,5 +238,6 @@ with st.expander("Is this accurate?"):
 # ---------- FOOTER ----------
 
 st.markdown('<p class="footer">AI Personality Lab • Built with Streamlit by KJ 🩷</p>', unsafe_allow_html=True)
+
 
 
