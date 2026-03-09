@@ -19,7 +19,7 @@ AI MBTI Personality Lab is a **fun and interactive web app** built with **Stream
 
 ## 🖼️ Demo Preview
 
-![App Screenshot] : 
+[App Screenshot] : https://drive.google.com/file/d/1O0dEw5vRudAdxzNbq5dGrrRCMerGYXc_/view?usp=drivesdk
 
 > Interactive dark dashboard with clean cards and fun features
 
